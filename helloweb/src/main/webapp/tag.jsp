@@ -16,9 +16,9 @@
 	
 	<table border="1" cellspacing="0" cellpadding="10">
 		<tr>
-			<th>글번호</td>
-			<th>글제목</td>
-			<th>작성자</td>
+			<th>글번호</th>
+			<th>글제목</th>
+			<th>작성자</th>
 		</tr>
 		<tr>
 			<td>1</td>
