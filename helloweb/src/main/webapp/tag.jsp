@@ -14,12 +14,12 @@
 	<h5>Hello World</h5>
 	<h6>Hello World</h6>
 	
-	<table>
-		<th>
-			<td>글번호</td>
-			<td>글제목</td>
-			<td>작성자</td>
-		</th>
+	<table border="1" cellspacing="0" cellpadding="10">
+		<tr>
+			<th>글번호</td>
+			<th>글제목</td>
+			<th>작성자</td>
+		</tr>
 		<tr>
 			<td>1</td>
 			<td>안녕</td>
