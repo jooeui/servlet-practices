@@ -31,5 +31,14 @@
 			<td>마이콜</td>
 		</tr>
 	</table>
+	<br/>
+	<!-- 절대경로 -->
+	<img src='/helloweb/assets/images/pikachu.png' style="width: 80px; border: 1px solid #999;" />
+	
+	<br/>
+	
+	<!-- 상대경로 - tag.jsp가 있는 위치(현재 위치)부터 -->
+	<img src='assets/images/pikachu.png' style="width: 80px; border: 1px solid #999;" />
+	
 </body>
 </html>
