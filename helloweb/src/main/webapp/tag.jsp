@@ -32,13 +32,22 @@
 		</tr>
 	</table>
 	<br/>
+	
 	<!-- 절대경로 -->
 	<img src='/helloweb/assets/images/pikachu.png' style="width: 80px; border: 1px solid #999;" />
-	
 	<br/>
 	
 	<!-- 상대경로 - tag.jsp가 있는 위치(현재 위치)부터 -->
 	<img src='assets/images/pikachu.png' style="width: 80px; border: 1px solid #999;" />
+	<br/>
 	
+	<a href="form.jsp">폼으로 가기</a>
+	<a href="/helloweb/hello.jsp">hello</a>
+	
+	<p>
+		INFO: 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.	<br/>
+		10월 07, 2021 3:11:44 오후 org.apache.catalina.startup.Catalina start	<br/>
+		INFO: Server startup in 623 ms
+	</p> 
 </body>
 </html>
