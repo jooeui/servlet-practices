@@ -42,7 +42,7 @@
 	<br/>
 	
 	<a href="form.jsp">폼으로 가기</a>
-	<a href="/helloweb/hello.jsp">hello</a>
+	<a href="/helloweb/hello.jsp?name=김주의&email=kje_0727@naver.com">hello</a>
 	
 	<p>
 		INFO: 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.	<br/>

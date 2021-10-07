@@ -40,7 +40,11 @@
 		술먹기 <input type="checkbox" name="hobby" value="drinking" />		
 		요리 <input type="checkbox" name="hobby" value="cooking" />		
 		수영 <input type="checkbox" name="hobby" value="swimming" />		
+		<br/><br/>
 		
+		자기소개
+		<!-- textarea는 그대로 나오기 때문에 띄어쓰기 안 하도록! -->
+		<textarea name="profile"></textarea>		
 	</form>
 </body>
 </html>
