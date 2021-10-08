@@ -19,7 +19,25 @@ public class EmaillistController extends HttpServlet {
 		request.setCharacterEncoding("utf-8");
 		
 		String action = request.getParameter("a");
-		if("list".equals(action)) {
+		if("form".equals(action)) {
+			RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/form.jsp");
+			rd.forward(request, response);
+		} else if("add".equals(action)) {
+			request.setCharacterEncoding("UTF-8");
+
+			String firstName = request.getParameter("fn");
+			String lastName = request.getParameter("ln");
+			String email = request.getParameter("email");
+			
+			EmaillistVo vo = new EmaillistVo();
+			vo.setFirstName(firstName);
+			vo.setLastName(lastName);
+			vo.setEmail(email);
+			
+			new EmaillistDao().insert(vo);
+			
+			response.sendRedirect("/emaillist02/el");
+		} else{
 			EmaillistDao dao = new EmaillistDao();
 			List<EmaillistVo> list = dao.findAll();
 			
