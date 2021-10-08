@@ -23,8 +23,6 @@ public class EmaillistController extends HttpServlet {
 			RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/form.jsp");
 			rd.forward(request, response);
 		} else if("add".equals(action)) {
-			request.setCharacterEncoding("UTF-8");
-
 			String firstName = request.getParameter("fn");
 			String lastName = request.getParameter("ln");
 			String email = request.getParameter("email");
