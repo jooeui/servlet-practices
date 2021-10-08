@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <% 
-	Long no = Long.parseLong(request.getParameter("no"));
+	String no = request.getParameter("no");
 %>
 <!DOCTYPE html>
 <html>
