@@ -9,13 +9,19 @@
 	</parent>
 	<artifactId>emaillist01</artifactId>
 	<packaging>war</packaging>
-	
+
 	<dependencies>
+		<!-- MariaDB JDBC Driver -->
+		<dependency>
+			<groupId>org.mariadb.jdbc</groupId>
+			<artifactId>mariadb-java-client</artifactId>
+			<version>2.4.4</version>
+		</dependency>
 	</dependencies>
-	
+
 	<build>
 		<finalName>emaillist01</finalName>
-		
+
 		<plugins>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
@@ -26,7 +32,7 @@
 					<username>admin</username>
 					<password>manager</password>
 				</configuration>
-			</plugin>	
+			</plugin>
 		</plugins>
 	</build>
 </project>
