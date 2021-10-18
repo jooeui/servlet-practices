@@ -13,8 +13,8 @@
 		<welcome-file>default.htm</welcome-file>
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
+	
 	<servlet>
-		<description></description>
 		<servlet-name>HelloServlet</servlet-name>
 		<servlet-class>helloweb.HelloServlet</servlet-class>
 	</servlet>
@@ -22,14 +22,22 @@
 		<servlet-name>HelloServlet</servlet-name>
 		<url-pattern>/hello</url-pattern>
 	</servlet-mapping>
+	
 	<servlet>
-		<description></description>
-		<display-name>CookieServlet</display-name>
 		<servlet-name>CookieServlet</servlet-name>
 		<servlet-class>helloweb.CookieServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>CookieServlet</servlet-name>
 		<url-pattern>/cookie</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LifeCycleServlet</servlet-name>
+		<servlet-class>helloweb.LifeCycleServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LifeCycleServlet</servlet-name>
+		<url-pattern>/lc</url-pattern>
 	</servlet-mapping>
 </web-app>
